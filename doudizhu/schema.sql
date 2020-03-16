@@ -1,0 +1,21 @@
+# mysql --u root -p < schema.sql
+
+CREATE DATABASE IF NOT EXISTS ddz DEFAULT CHARSET utf8mb4 COLLATE utf8mb4_general_ci;
+
+CREATE TABLE IF NOT EXISTS ddz.account (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    unionid VARCHAR(50) NOT NULL UNIQUE,
+    nickname VARCHAR(50) NOT NULL,
+    sex TINYINT(1) NOT NULL,
+    head_img_url VARCHAR(200),
+    ip_address CHAR(39) NOT NULL,
+    date_joined DATETIME(6) DEFAULT CURRENT_TIMESTAMP,
+    last_modified DATETIME(6) ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS ddz.record (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    round VARCHAR(100) NOT NULL,
+    last_modified DATETIME ON UPDATE CURRENT_TIMESTAMP
+);
+
