@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "nt35310.h": "c",
+        "kpu.h": "c",
+        "region_layer.h": "c",
+        "lcd.h": "c",
+        "utils.h": "c",
+        "flash-manager.h": "c",
+        "w25qxx.h": "c",
+        "stdlib.h": "c",
+        "fpioa.h": "c",
+        "fpioa-config.h": "c",
+        "sdcard.h": "c",
+        "spi.h": "c"
+    }
+}

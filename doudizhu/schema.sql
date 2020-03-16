@@ -1,5 +1,5 @@
 # mysql --u root -p < schema.sql
-
+SET GLOBAL sql_mode = '';
 CREATE DATABASE IF NOT EXISTS ddz DEFAULT CHARSET utf8mb4 COLLATE utf8mb4_general_ci;
 
 CREATE TABLE IF NOT EXISTS ddz.account (
