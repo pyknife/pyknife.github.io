@@ -1,0 +1,64 @@
+2015-04-03:
+	Software:
+	- Added support for SH1106 OLEDs, see OLED_CONTROLLER in config.h
+
+2014-11-15:
+	Software:
+	- Fixed issue for when RTC isn't connected
+
+2014-11-08:
+	Software:
+	- Updated Russian translation (day of week images)
+
+	Hardware:
+	- Released N|WatchDev designs (dev board version of the watch)
+
+2014-10-29:
+	Software:
+	- Added 12 hour time option
+	- Russian translation, thanks to Onatsky Sergei (Le_Fleurs (-at-) mail (-dot-) ru)
+	- Bootloader baud changed from 76800 to 57600 (Linux doesn't like 76800)
+
+2014-10-20:
+	Software:
+	- Fixed alarm bug
+
+2014-10-13:
+	Software:
+	- Added early battery undervoltage cutoff. Improves battery lifespan by not letting the voltage go so low and the RTC will continue working since the battery's own PCM hasn't kicked in yet
+	- Slightly reduced power consumption by going into power save sleep instead of idle sleep if no other peripherals are in use
+	- Various code optimisations
+
+	Hardware:
+	N|Watch (v1.4):
+	- Q2, Q3, Q4 MOSFETs changed to BJTs (BC817-40 & BC807-40)
+	- R2, R3 100R gate resistors changed to 47K and 1K
+	- R4 has been removed (now all resistors in RN3 are being used)
+	- Pogo pads are now 2mm apart instead of 1.27mm (was hard to solder the pogo adapter)
+
+2014-06-30:
+	Software:
+	- Fixed tune priority not resetting
+
+2014-06-28:
+	Software:
+	- Added a bootloader (slightly modified Optiboot, added support for ATmega328 non-P and reading/writing EEPROM)
+	- Reduced flash and RAM usage (Flash: 29156 -> 26702 (2454), RAM: 1407 -> 1300 (107))
+	- Added support for playing tunes
+	- Alarms are loaded from EEPROM as needed instead of having them hanging around in RAM all the time
+	- Lots of bug fixes, heres some:
+		Wonkiness if EEPROM wasn't programmed
+		Alarms not going off on the correct day
+		If an alarm goes off but is not cancelled by the user the watch would stay on
+		Watch waking up when it's not supposed to
+	- Bunch more stuff...
+
+	Hardware:
+	N|Watch (v1.3):
+	- 3 Separate buttons instead of a 3 way nav button
+	- MOSFETs have been changed to more suitable types (DMG6968s were total overkill)
+	- Thinner PCB traces allowing components to be packed closer together
+	- Breakout pads for power, I2C, UART and SPI
+
+2013-09-25:
+	- Initial release

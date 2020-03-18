@@ -1,0 +1,34 @@
+global.c system.c pwrmgr.c - fix up this code! lots of little (but rare) issues with interrupts happening just before going to power down sleep
+draw.c - also fix up this, cleanup that struct image_s stuff and maybe convert draw_bitmap_do() to ASM to see if its any faster?
+millis.c/millis_isr.s - use flags that are processed in the ISR instead? also reduce millis resolution to 4ms? nothing in the code really needs 1ms res
+bool/BOOL
+
+
+Make a better readme
+Arduino stuff
+
+Alarm snooze
+Options for alarm snooze
+Improve alarms menu
+	- Use new WE/TU icon things
+Improve games menu
+Options for setting what up and down buttons do when on the main watch display (open stopwatch/alarms/games etc)
+Make menu option name animated, move off then back on or something
+sleep mode options
+	- Off
+	- Low power (dim screen)
+Reduce CPU clock if animations are disabled (and at other times too?)
+Update the display less often (saves power)
+	- Only draw when needed
+	- Seperate logic and drawing
+Sometimes the sounder 'pops' due to bad waveform output
+Options for LEDs (brightness etc)
+Fancy USB plugged in screen anim?
+Countdown timer
+More games?
+Option to return to main diplay after going into standby
+
+Finish support for DS1307, MCP7940x and internal RTC sources
+Finish support for LED flash patterns
+Something to show sunrise and sunset times? User will need to enter their latitude.
+Record time of USB unplug

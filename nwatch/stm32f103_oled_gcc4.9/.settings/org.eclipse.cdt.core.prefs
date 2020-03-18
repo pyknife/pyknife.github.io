@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1132038623/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1132038623/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1132038623/PATH/value=/opt/gcc-arm-none-eabi-4_9-2014q4/bin\:/opt/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin\:/opt/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin/\:/home/vlad/arch/ia32-intel11.1/lam-7.1.1/bin/\:/opt/intel/Compiler/11.1/059/bin/ia32\:/opt/intel/Compiler/11.1/059/bin/ia32\:/home/vlad/arch/ia32-intel11.1/Healpix_2.20a-openmp/bin\:/home/vlad/arch/ia32-intel11.1/Healpix_2.20a-openmp/bin\:/opt/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin/\:/home/vlad/arch/ia32-intel11.1/lam-7.1.1/bin/\:/opt/intel/Compiler/11.1/059/bin/ia32\:/opt/intel/Compiler/11.1/059/bin/ia32\:/home/vlad/arch/ia32-intel11.1/Healpix_2.20a-openmp/bin\:/usr/lib/qt-3.3/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/local/sbin\:/usr/sbin\:/home/vlad/.local/bin\:/home/vlad/bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1132038623/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1132038623/appendContributed=true
