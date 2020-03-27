@@ -1,0 +1,59 @@
+Configuration	Baleka
+STM32CubeMX 	4.16.0
+Date	10/20/2016
+MCU	STM32F407VGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	TIM2	SYS_VS_tim2	VP_SYS_VS_tim2
+UART4	Asynchronous	UART4_RX	PA1
+UART4	Asynchronous	UART4_TX	PA0-WKUP
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USART3	Asynchronous	USART3_RX	PC11
+USART3	Asynchronous	USART3_TX	PC10
+USART6	Asynchronous	USART6_RX	PC7
+USART6	Asynchronous	USART6_TX	PC6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	PA0-WKUP	UART4_TX	PC_TX
+24	PA1	UART4_RX	PC_RX
+25	PA2	USART2_TX	Motor2_TX
+26	PA3	USART2_RX	Motor2_RX
+63	PC6	USART6_TX	iNemo_TX
+64	PC7	USART6_RX	iNemo_RX
+78	PC10	USART3_TX	Motor1_TX
+79	PC11	USART3_RX	Motor1_RX
+95	PB8	GPIO_Output	GPIO_MISC1
+96	PB9	GPIO_Output	GPIO_MISC2
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Baleka
+Project Folder : /home/bscholtz/workspace/workspace-stm32cubemx/baleka-stm32f4-code
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_F4 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripherals : No
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
