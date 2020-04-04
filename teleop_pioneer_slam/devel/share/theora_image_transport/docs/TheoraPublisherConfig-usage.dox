@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="TheoraPublisher" pkg="theora_image_transport" type="TheoraPublisher">
+  <param name="optimize_for" type="int" value="1" />
+  <param name="target_bitrate" type="int" value="800000" />
+  <param name="quality" type="int" value="31" />
+  <param name="keyframe_frequency" type="int" value="64" />
+</node>
+\endverbatim
+

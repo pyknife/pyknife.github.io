@@ -1,0 +1,8 @@
+prefix=/home/l/teleop_pioneer_slam/devel
+
+Name: theora_image_transport
+Description: Description of theora_image_transport
+Version: 1.9.5
+Cflags: -I/home/l/teleop_pioneer_slam/devel/include -I/home/l/teleop_pioneer_slam/src/image_transport_plugins/theora_image_transport/include
+Libs: -L/home/l/teleop_pioneer_slam/devel/lib -ltheora_image_transport
+Requires: message_runtime std_msgs

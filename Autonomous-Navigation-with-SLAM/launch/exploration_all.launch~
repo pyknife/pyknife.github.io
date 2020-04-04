@@ -1,0 +1,17 @@
+<launch>
+  <arg name="RVIZ_CONF" default="$(find project_1)/Project.rviz"/>
+	
+
+  <include file="$(find project_1)/launch/includes/move_base.launch.xml" />
+
+  <include file="$(find project_1)/launch/exploration.launch" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg RVIZ_CONF)" />
+
+	<node pkg="gmapping" type="slam_gmapping" name="gmapping" args="scan:=base_scan" >
+		<param name="base_frame_id" value="base_footprint"/>
+	</node>	
+
+
+		
+</launch>

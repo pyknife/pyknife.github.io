@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~format" : \b [str] Compression format min: , default: jpeg, max: 
+- \b "~jpeg_quality" : \b [int] JPEG quality percentile min: 1, default: 80, max: 100
+- \b "~png_level" : \b [int] PNG compression level min: 1, default: 9, max: 9
+

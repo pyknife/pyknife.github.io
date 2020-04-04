@@ -1,0 +1,8 @@
+prefix=/home/l/teleop_pioneer_slam/devel
+
+Name: camera_info_manager
+Description: Description of camera_info_manager
+Version: 1.11.13
+Cflags: -I/home/l/teleop_pioneer_slam/src/image_common/camera_info_manager/include -I/usr/include
+Libs: -L/home/l/teleop_pioneer_slam/devel/lib -lcamera_info_manager
+Requires: camera_calibration_parsers roscpp sensor_msgs

@@ -1,0 +1,11 @@
+[[36mexternal_teleop[0m] [1m[34m==>[0m '[1m/home/l/teleop_pioneer_slam/build/external_teleop/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/home/l/teleop_pioneer_slam/build/external_teleop[0m'[0m
+CMake Error at CMakeLists.txt:4 (rosbuild_init):
+  Unknown CMake command "rosbuild_init".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/l/teleop_pioneer_slam/build/external_teleop/CMakeFiles/CMakeOutput.log".
+See also "/home/l/teleop_pioneer_slam/build/external_teleop/CMakeFiles/CMakeError.log".
+Makefile:528: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1
+[[36mexternal_teleop[0m] [1m[31m<==[0m '[1m/home/l/teleop_pioneer_slam/build/external_teleop/build_env.sh /usr/bin/make cmake_check_build_system[0m' [31mfailed with return code[0m '[1m2[0m'[0m

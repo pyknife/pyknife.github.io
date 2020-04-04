@@ -1,0 +1,8 @@
+prefix=/home/l/teleop_pioneer_slam/install
+
+Name: camera_calibration_parsers
+Description: Description of camera_calibration_parsers
+Version: 1.11.13
+Cflags: -I/home/l/teleop_pioneer_slam/install/include
+Libs: -L/home/l/teleop_pioneer_slam/install/lib -lcamera_calibration_parsers
+Requires: sensor_msgs

@@ -1,0 +1,6 @@
+<launch>
+
+<node pkg="rviz" type="rviz" name="my_rviz" args="-d $(find h16060046_lab9)/lab9.rviz"  />
+<node pkg="gmapping" type="slam_gmapping" name="gmappingrviz" args="scan:=base_scan" />
+
+</launch>

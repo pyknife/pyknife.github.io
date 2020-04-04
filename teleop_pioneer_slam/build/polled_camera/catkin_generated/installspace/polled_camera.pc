@@ -1,0 +1,8 @@
+prefix=/home/l/teleop_pioneer_slam/install
+
+Name: polled_camera
+Description: Description of polled_camera
+Version: 1.11.13
+Cflags: -I/home/l/teleop_pioneer_slam/install/include
+Libs: -L/home/l/teleop_pioneer_slam/install/lib -lpolled_camera
+Requires: image_transport message_runtime roscpp sensor_msgs std_msgs

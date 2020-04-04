@@ -1,0 +1,6 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~post_processing_level" : \b [int] Post-processing level. Higher values can improve the appearance of the decoded images at the cost of more CPU. min: 0, default: 0, max: 7
+

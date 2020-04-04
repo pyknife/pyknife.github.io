@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~optimize_for" : \b [int] Try to achieve either 'target_bitrate' or 'quality' min: 0, default: 1, max: 1
+- \b "~target_bitrate" : \b [int] Target encoding bitrate, bits per second min: 0, default: 800000, max: 99200000
+- \b "~quality" : \b [int] Encoding quality min: 0, default: 31, max: 63
+- \b "~keyframe_frequency" : \b [int] Maximum distance between key frames min: 1, default: 64, max: 64
+

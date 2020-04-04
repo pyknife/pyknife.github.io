@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="CompressedSubscriber" pkg="compressed_image_transport" type="CompressedSubscriber">
+  <param name="mode" type="str" value="unchanged" />
+</node>
+\endverbatim
+

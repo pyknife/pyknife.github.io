@@ -1,0 +1,5 @@
+<launch>
+
+<node name="slam_gmapping" pkg="gmapping" type="slam_gmapping" args="scan:=/vrep/front_scan" output="screen"/>
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/l/teleop_pioneer_slam/install
+
+Name: image_transport
+Description: Description of image_transport
+Version: 1.11.13
+Cflags: -I/home/l/teleop_pioneer_slam/install/include
+Libs: -L/home/l/teleop_pioneer_slam/install/lib -limage_transport
+Requires: message_filters pluginlib rosconsole roscpp roslib sensor_msgs
